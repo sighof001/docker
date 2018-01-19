@@ -1,0 +1,3 @@
+$(function(){
+	fillUIContent(true);
+});

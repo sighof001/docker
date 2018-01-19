@@ -1,0 +1,22 @@
+.adjustrow{margin-left:62%;}
+.adjustrowh{margin-top:10px;}
+.adjustcenter{margin:0 10%;}
+input[type="checkbox"]{width: 16px;height: 16px; margin: 5px 0 0; padding: 0;border: 0;}
+
+
+/*
+下架
+*/
+.tableContent .table .icon-unpublish{ background:url(../image/tableicon/tableicon6.png) no-repeat;}
+.tableContent .table .icon-unpublish-grey{ background:url(../image/tableicon/tableicon6_0.png) no-repeat;}
+.tableContent .table .icon-unpublish:hover{ background:url(../image/tableicon/tableicon6hover.png) no-repeat;}
+/*
+审核拒绝
+*/
+.tableContent .table .icon-auditFail{ background:url(../image/tableicon/icon_termination.png) no-repeat;}
+.tableContent .table .icon-auditFail-grey{ background:url(../image/tableicon/icon_termination_grey.png) no-repeat;}
+.tableContent .table .icon-auditFail:hover{ background:url(../image/tableicon/icon_termination_hover.png) no-repeat;}
+
+.formgroup_wrap li{ position:relative; padding-right:20px; height:inherit;}
+
+td.error{color: red;}

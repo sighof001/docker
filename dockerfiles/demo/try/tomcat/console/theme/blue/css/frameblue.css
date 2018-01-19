@@ -1,0 +1,88 @@
+html,body{ font-family:"微软雅黑";}
+ul,li,p{ margin:0px; padding:0px;}
+a,a:focus,button:focus{outline:none;}
+
+
+.after-header{ margin-top:60px !important;}
+.navbar{ background:url(../image/allpic.png) 0px 0px  repeat-x !important; height:55px;}
+.navbar-brand{ background:url(../image/ghbpage1.png) 0 5px  no-repeat;background:url(../image/ghbpage1.png) 0 0px  no-repeat\0; padding-left:226px; margin-left:10px;}
+
+.navbar .navbar-brand{padding-top:15px; padding-top:10px\0; font-size:24px; font-weight:bolder; }
+:root .navbar .navbar-brand{ padding-top:15px\0\9;}
+.navbar-brand img{ width:0;}
+.navbar-nav-ie8,.navbar-nav-ie8>li,.navbar-nav-ie8>li>a{ height:55px;}
+.navbar-nav-ie8>li{ margin-top:-5px\0; }
+:root .navbar-nav-ie8>li{ margin-top:0px\9\0;}
+.navbar-nav-ie8>li>a{ color: #eee; font-weight:bold; padding-top:0px;   line-height:55px; font-size:15px;}
+.navbar-nav-ie8 > .active > a, .navbar-nav-ie8 > .active > a:hover, .navbar-nav-ie8 > .active > a:focus{background:url(../image/arrows.png) 0 0px  no-repeat\0}
+.navbar-nav-ie8 > li > a:hover {
+  color: #fff;
+  background:url(../image/arrows.png) 0 0px  no-repeat\0;
+}
+/*****左侧菜单栏start*****/
+.panel{ border-top:none\0;}
+.main-left-menu{ background-color:#f5f5f5;}
+.nav-list > li > a{ background-color:transparent; font-size:13px;}
+.nav-list > li{ border-bottom:1px solid #e3e3e3; }
+.nav-list > li.active > a, .nav-list > li.active > a:hover, .nav-list > li.active > a:focus, .nav-list > li.active > a:active{ background-color:#fbfbfb;}
+
+.top-head-user-tip a{ color:#000;}
+.top-head-user-tip{ margin-top:5px; color:#eee;}
+.panel-heading{ position:relative;   repeat-x !important; font-size:15px; font-weight:bold; padding:0px; height:33px !important;background:#ca0821 !important;
+}
+.menu-header{color:#fff; display:inline-block; padding-left:25px; padding-top:2px; background:url(../image/allpic.png) -125px -188px no-repeat;}
+.submenu a{ font-size:13px;}
+.nav-list > li > a > [class*="icon-"]:first-child{ margin-left:10px;}
+.nav-list .dropdown-toggle{}
+.menu-text{ margin-left:10px; display:inline-block; background-color:transparent; overflow:hidden; white-space:nowrap;text-overflow:ellipsis; width:190px; }
+.menu-text2{  display:inline-block; background-color:transparent; overflow:hidden; white-space:nowrap;text-overflow:ellipsis; width:190px; margin-left:-10px;  }
+/*****左侧菜单栏end*****/
+/******左侧收缩start****/
+.toolbar-border-header{ border:0;}
+.widget-toolbar{ position:absolute; top:200px;  right:-25px; z-index:9999;}
+.widget-toolbar .icon-double-angle-left:before,.widget-toolbar .icon-double-angle-right:before{ content:"";}
+.widget-toolbar .icon-double-angle-left{ display:inline-block; width:10px; height:80px; background:url(../image/allpic.png) -75px -192px no-repeat; }
+.widget-toolbar .icon-double-angle-right{ display:inline-block; width:12px; height:80px; background:url(../image/allpic.png) -95px -192px no-repeat; }
+/*****左侧收缩end*****/
+.icon-bar-chart{ position:absolute; left:0px; top:14px; background:url(../image/allpic.png) -136px -214px no-repeat; min-width: 10px !important; height:10px; }
+.nav-list>.active>a>[class^="icon-"],.nav-list > li > a:hover>.icon-bar-chart{ background:url(../image/allpic.png) -136px -229px no-repeat;}
+.icon-bar-chart:before{ content:"";}
+/******右侧tab start*****/
+.lefttabbg,.righttabbg{ display:inline-block; width:6px; height:35px;line-height:35px; z-index:12;position: relative;}
+.nav-tabs > li:first-child > a{  padding-right:5px; padding-left:6px;}
+.lefttabbg{background:url(../image/allpic.png) -28px -191px no-repeat;}
+/***.nav-tabs > li:first-child > a{background:url(../image/allpic.png) 0px -143px repeat-x;}***/
+.nav-tabs > li > a{ font-size:13px; position:relative; width:105px; text-align:center; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; color:#333; padding:0;  padding-right:10px;padding-right:6px\0; height:36px; border:0; display:inline-block; cursor:default; z-index:12;}
+.righttabbg{background:url(../image/allpic.png) -42px -191px no-repeat;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{ line-height:36px; border:0;box-shadow:none;border-top:none; }
+.nav-tabs > li > a, .nav-tabs > li > a:focus{line-height:36px; background-color:transparent; margin:0;background:url(../image/tabbggrey.png) no-repeat; }
+.nav-tabs>li{ margin-right:5px; height:33px;}
+.nav-tabs > li.active >a,.nav-tabs > li.active >a:hover{background:url(../image/tabbgfocus.png) no-repeat; color:#fff;cursor:default;}
+.nav-tabs > li.active > a:focus,.nav-tabs > li.active >a:hover,.nav-tabs > li.active >a{ color:#fff;}
+.nav-tabs > li >a:hover{color:#ca0821;}
+.tab-close{ right:3px; top:2px;right:-1px\0; top:1px\0; cursor:pointer; position:absolute;  z-index:9999;}
+:root .tab-close{right:3px; top:2px;}
+.tab-content{ border-top:1px solid #ccc;}
+.nav-tabs{ background:url(../image/allpic.png) 0px -377px repeat-x; border-bottom:1px solid #d5d5d5; height:33px !important; overflow:hidden; }
+/******右侧tab end*****/
+
+/********ie8 start*******/
+.nav-tabs  li.active .tab-close{ background:url(../image/icon.png) -327px -445px no-repeat\0;}
+
+
+/********ie8 end*******/
+/*****tab*******/
+
+.tabsNavUl{ position:relative; width:246px;}
+.tabsNavUl li {cursor:pointer;  border-right:0;  list-style:none;
+ position:absolute;top:2px;padding:0 5px; height:30px; line-height:30px; width:134px; text-align:center;  font-weight:normal; font-size:13px;color:#fff; }
+.tabsNavUl li.tabright{ right:0px;}
+.tabsNavUl li .menu-header{ background:none; padding-left:0;color:#fff; }
+.tabsNavUl li.tabNavOn{ background:url(../image/leftheadfocus.png) no-repeat !important; font-weight:bold; }
+.tabsNavUl li.tabNavOn span{color:#ca0821 !important;}
+.favorite-menu{ position:absolute; top:0px; min-height:500px; height:auto !important; display:none;}
+.panel-body-left{ position:relative; }
+
+.tabsNavUl li span{ display:inline-block; width:100px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+/************/
+.nav-list > li .submenu > li a > [class*="icon-"]:first-child{ background-color:transparent !important;}

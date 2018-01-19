@@ -1,0 +1,9 @@
+/* 新加 */
+.a-inputfileUpdate{ display:inline-block; position:relative; text-align:left; margin-left:auto;
+margin-right:auto;}
+.a-inputfileUpdate input{position:absolute;margin-left:auto; margin-right:auto; opacity:0; }
+
+.inputtxt1 {
+    border-style:none;
+ 	text-align:right;
+}

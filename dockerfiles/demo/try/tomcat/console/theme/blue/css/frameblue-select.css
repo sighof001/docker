@@ -1,0 +1,59 @@
+a,a:focus,input{outline:none;}
+/********xd-login-start******/
+.loginhtml{ background:#f8f8f8;}
+.loginbody{ background:#f8f8f8; }
+.logincontain{ background:url(../image/login.png) no-repeat; width:1000px; height:360px;  position: absolute; top:50%; left:50%; margin-left:-500px; margin-top:-220px;}
+.loginbox{ position:absolute; right:100px;}
+.loginform{ margin-top:130px; }
+.logintxt,.control-label{ display:inline-block;}
+.control-label{ width:65px; text-align:left !important; font-size:18px; color:#333; font-weight:normal;}
+.logintxt{ width:210px;}
+.logintxt .form-control{ background-color:#f3f3f3; }
+.logintxt .form-control:focus{background-color:#fff; border:1px solid #ccc; }
+.login-form-group{ margin-bottom:25px;}
+.loginbtnwrap{}
+.loginbtnbg{ margin-left:70px; margin-right:5px; width:212px; height:41px; background:url(../image/loginbtn.png) no-repeat right;}
+.loginbtn{ height:42px; width:212px; background-color:transparent;border:0; }
+.loginbtn:hover,.loginbtn:focus{ background-color:transparent;}
+.txtright{ text-align:right;}
+.nopadding-form-group div{ padding:0px; margin:0px;}
+.nopadding-form-group div a{ color:#7b7b7b;}
+.nopadding-form-group div a:hover{ color:#333;}
+.alertlogin{ margin-top:0px; position:absolute; top:90px; left:-30px; border:none; background-color:transparent;}
+/********xd-login-end******/
+/*****IE8右侧tabg下方start******/
+.bootstrap-select{ width:160px\0;}
+ .icon-search{ background:url(../image/icon.png) -277px -440px no-repeat\0 !important; }
+ .icon-plus{ background:url(../image/icon.png) -292px -439px no-repeat\0 !important; }
+.panel-heading .icon-user{ background:url(../image/icon.png) -310px -440px no-repeat\0;}
+.panel-heading .icon-user:hover,.panel-heading.icon-user:active{ background:url(../image/iconactive.png) -310px -440px no-repeat\0;}
+.panel-body .icon-edit{ background:url(../image/icon.png) -388px -440px no-repeat\0;}
+.panel-body .icon-edit:hover,.panel-heading .icon-edit:active{ background:url(../image/iconactive.png) -388px -440px no-repeat\0;}
+.panel-body .icon-trash{ background:url(../image/icon.png) -372px -441px no-repeat\0;}
+.panel-body .icon-trash:hover,.panel-heading .icon-trash:active{ background:url(../image/iconactive.png) -372px -441px no-repeat\0;}
+.panel-body .icon-user-md{ background:url(../image/icon.png) -481px -440px no-repeat\0;}
+.panel-body .icon-user-md:hover,.panel-heading .icon-user-md:active{ background:url(../image/iconactive.png) -481px -440px no-repeat\0;}
+.panel-body .icon-user{ background:url(../image/icon.png) -357px -440px no-repeat\0;}
+.panel-body .icon-user:hover,.panel-heading.icon-user:active{ background:url(../image/iconactive.png) -357px -440px no-repeat\0;}
+.panel-body .icon-folder-close{background:url(../image/icon.png) -406px -440px no-repeat\0;}
+.panel-body .icon-folder-close:hover,.panel-body .icon-folder-close:active{background:url(../image/iconactive.png) -406px -440px no-repeat\0;}
+.panel-body .icon-folder-open{background:url(../image/icon.png) -424px -440px no-repeat\0;}
+.panel-body .icon-folder-open:hover,.panel-body .icon-folder-open:active{background:url(../image/iconactive.png) -424px -440px no-repeat\0;}
+.panel-body .icon-tasks{background:url(../image/icon.png) -443px -440px no-repeat\0;}
+.panel-body .icon-tasks:hover,.panel-body .icon-tasks:active{background:url(../image/iconactive.png) -443px -440px no-repeat\0;}
+.panel-body .icon-group{background:url(../image/icon.png) -462px -440px no-repeat\0; height:16px !important;}
+.panel-body .icon-group:hover,.panel-body .icon-group:active{background:url(../image/iconactive.png) -462px -440px no-repeat\0;height:16px !important;}
+.panel-body .icon-chevron-right{background:url(../image/icon.png) -510px -440px no-repeat\0;}
+.panel-body .icon-chevron-right:hover,.panel-body .icon-chevron-right:active{background:url(../image/iconactive.png) -510px -440px no-repeat\0;}
+.panel-body .icon-chevron-left{background:url(../image/icon.png) -496px -440px no-repeat\0;}
+.panel-body .icon-chevron-left:hover,.panel-body .icon-chevron-left:active{background:url(../image/iconactive.png) -496px -440px no-repeat\0;}
+.panel-body .icon-double-angle-right{background:url(../image/icon.png) -525px -444px no-repeat\0; height:14px !important;}
+.panel-body .icon-double-angle-right:hover, .panel-body .icon-double-angle-right:active{background:url(../image/iconactive.png) -525px -444px no-repeat\0; height:14px !important;}
+/*****右侧tabg下方end******/
+/*****角色授权start******/
+.tree-folder-name .pull-right,.tree-item .pull-right{width:250px !important; position:absolute; top:5px; right:10px; text-align:right; z-index:999;}
+/* .tree .tree-folder .tree-folder-header .tree-folder-name, .tree .tree-item .tree-item-name{display:inline-block !important; width:50%;  word-break:break-all;  word-wrap:break-word; vertical-align:middle;} */
+.tree .tree-folder .tree-folder-header .tree-folder-name, .tree .tree-item .tree-item-name{display:inline-block !important;     white-space:nowrap;  word-wrap:break-word; vertical-align:middle;}
+
+.tree .tree-folder .tree-folder-header{position:relative; margin-bottom:10px; height:auto !important; min-height:auto !important; line-height:normal !important;}
+/*****角色授权end******/

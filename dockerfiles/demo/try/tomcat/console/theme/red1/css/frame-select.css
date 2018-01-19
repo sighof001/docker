@@ -1,0 +1,148 @@
+a,a:focus,input{outline:none;}
+/********xd-login-start******/
+.loginhtml{ background-color:#fff;}
+.loginbody{  height:auto; }
+.loginbody .container{width:1600px; height:567px; background:url(../image/loginbg.jpg) center no-repeat;  }
+.logincontain{width:337px; height:367px; position:relative;left:50%; margin-left:-100px; margin-top:76px; background:url(../image/loginformbg.png) center no-repeat;   }
+
+.loginLogo{width:396px; margin-left:250px; height:49px; margin-top:40px; margin-bottom:15px; background:url(../image/loginlogo.png) no-repeat; }
+.loginbox{ width:90%; margin:0 auto;padding-top:50px; font-family:"Microsoft yahei"; }
+.logintitle{ width:224px; height:20px; margin:0 auto;  background:url(../image/logintitle.png) no-repeat;}
+.loginform{ margin-top:40px; }
+.loginform .form-group{ margin:0px; margin-bottom:70px; padding-left:20px;}
+.logintxt,.control-label{ display:inline-block;}
+.loginform .control-label{  width:32px; height:34px;  position:absolute; border:1px solid #dcdcdc; border-right:0;}
+.loginform .usernamelabel{ background:url(../image/usericon.png) center no-repeat #fff;}
+.loginform .passwordlabel{ background:url(../image/pwdicon.png) center no-repeat #fff;}
+.logintxt{ width:230px; position:absolute; margin-left:32px;  }
+.logintxt .form-control{ background-color:#fff !important;border-radius:0 !important;border:1px solid #dcdcdc; }
+.logintxt .form-control:focus{background-color:#fff;  }
+.login-form-group{ margin-bottom:25px;}
+.loginform .loginbtnwrap{ margin-bottom:25px;}
+.loginbtnbg{ height:36px; width:263px; margin-left:0px; }
+
+.loginbtn{ height:36px; width:263px; color:#fff; margin:0 auto; background-color:transparent;border:0; background-color:#b21e28;}
+.loginbtn:hover,.loginbtn:focus{ background-color:#ca082a; color:#fff;}
+.txtright{ text-align:right;}
+.nopadding-form-group div{ padding:0px; margin:0px;}
+.nopadding-form-group div a{ color:#7b7b7b;}
+.nopadding-form-group div a:hover{ color:#333;}
+.alertlogin{ margin-top:0px; /*position:absolute*/; top:140px;border:none; background-color:transparent;}
+.loginFooter{ position:absolute; top:680px; left:50%; margin-left:-100px; font-size:12px; color:#999;font-family:"Microsoft yahei";}
+/********xd-login-end******/
+/*****IE8右侧tabg下方start******/
+.bootstrap-select{ width:160px\0;}
+.icon-search{ background:url(../image/icon.png) -277px -440px no-repeat\0 !important; }
+:root .icon-search{ background:none;}
+.icon-plus{ background:url(../image/icon.png) -292px -439px no-repeat\0 !important; }
+:root .icon-plus{ background:none;}
+.panel-heading .icon-user{ background:url(../image/icon.png) -310px -440px no-repeat\0;}
+:root .panel-heading .icon-user{ background:none;}
+.panel-heading .icon-user:hover,.panel-heading.icon-user:active{ background:url(../image/iconactive.png) -310px -440px no-repeat\0;}
+:root .panel-heading .icon-user:hover,:root .panel-heading.icon-user:active{ background:none;}
+.panel-body .icon-edit{ background:url(../image/icon.png) -388px -440px no-repeat\0;}
+:root .panel-body .icon-edit{ background:none;}
+.panel-body .icon-edit:hover,.panel-heading .icon-edit:active{ background:url(../image/iconactive.png) -388px -440px no-repeat\0;}
+:root .panel-body .icon-edit:hover,:root .panel-heading .icon-edit:active{ background:none;}
+.panel-body .icon-trash{ background:url(../image/icon.png) -372px -441px no-repeat\0;}
+:root .panel-body .icon-trash,:root .panel-body .icon-trash{ background:none;}
+.panel-body .icon-trash:hover,.panel-heading .icon-trash:active{ background:url(../image/iconactive.png) -372px -441px no-repeat\0;}
+:root .panel-body .icon-trash:hover,:root .panel-heading .icon-trash:active{ background:none;}
+.panel-body .icon-user-md{ background:url(../image/icon.png) -481px -440px no-repeat\0;}
+:root .panel-body .icon-user-md{ background:none;}
+.panel-body .icon-user-md:hover,.panel-heading .icon-user-md:active{ background:url(../image/iconactive.png) -481px -440px no-repeat\0;}
+:root .panel-body .icon-user-md:hover,:root .panel-heading .icon-user-md:active{ background:none;}
+.panel-body .icon-user{ background:url(../image/icon.png) -357px -440px no-repeat\0;}
+:root .panel-body .icon-user{ background:none;}
+.panel-body .icon-user:hover,.panel-heading.icon-user:active{ background:url(../image/iconactive.png) -357px -440px no-repeat\0;}
+:root .panel-body .icon-user:hover,:root .panel-heading.icon-user:active{ background:none;}
+.panel-body .icon-folder-close{background:url(../image/icon.png) -406px -440px no-repeat\0;}
+:root .panel-body .icon-folder-close{ background:none;}
+.panel-body .icon-folder-close:hover,.panel-body .icon-folder-close:active{background:url(../image/iconactive.png) -406px -440px no-repeat\0;}
+:root .panel-body .icon-folder-close:hover,:root .panel-body .icon-folder-close:active{ background:none;}
+.panel-body .icon-folder-open{background:url(../image/icon.png) -424px -440px no-repeat\0;}
+:root .panel-body .icon-folder-open{ background:none;}
+.panel-body .icon-folder-open:hover,.panel-body .icon-folder-open:active{background:url(../image/iconactive.png) -424px -440px no-repeat\0;}
+:root .panel-body .icon-folder-open:hover,:root .panel-body .icon-folder-open:active{ background:none;}
+.panel-body .icon-tasks{background:url(../image/icon.png) -443px -440px no-repeat\0;}
+:root .panel-body .icon-tasks{ background:none;}
+.panel-body .icon-tasks:hover,.panel-body .icon-tasks:active{background:url(../image/iconactive.png) -443px -440px no-repeat\0;}
+:root .panel-body .icon-tasks:hover,:root .panel-body .icon-tasks:active{ background:none;}
+.panel-body .icon-group{background:url(../image/icon.png) -462px -440px no-repeat\0; height:16px !important;}
+:root .panel-body .icon-group{ background:none;}
+.panel-body .icon-group:hover,.panel-body .icon-group:active{background:url(../image/iconactive.png) -462px -440px no-repeat\0;height:16px !important;}
+:root .panel-body .icon-group:hover,:root .panel-body .icon-group:active{ background:none;}
+.panel-body .icon-chevron-right{background:url(../image/icon.png) -510px -440px no-repeat\0;}
+:root .panel-body .icon-chevron-right{ background:none;}
+.panel-body .icon-chevron-right:hover,.panel-body .icon-chevron-right:active{background:url(../image/iconactive.png) -510px -440px no-repeat\0;}
+:root .panel-body .icon-chevron-right:hover,:root .panel-body .icon-chevron-right:active{ background:none;}
+.panel-body .icon-chevron-left{background:url(../image/icon.png) -496px -440px no-repeat\0;}
+:root .panel-body .icon-chevron-left{ background:none;}
+.panel-body .icon-chevron-left:hover,.panel-body .icon-chevron-left:active{background:url(../image/iconactive.png) -496px -440px no-repeat\0;}
+:root .panel-body .icon-chevron-left:hover,:root .panel-body .icon-chevron-left:active{ background:none;}
+.panel-body .icon-double-angle-right{background:url(../image/icon.png) -525px -444px no-repeat\0; height:14px !important;}
+:root .panel-body .icon-double-angle-right{ background:none;}
+.panel-body .icon-double-angle-right:hover, .panel-body .icon-double-angle-right:active{background:url(../image/iconactive.png) -525px -444px no-repeat\0; height:14px !important;}
+:root .panel-body .icon-double-angle-right:hover,:root .panel-body .icon-double-angle-right:active{ background:none;}
+/*****右侧tabg下方end******/
+/*****角色授权start******/
+.tree-folder-name .pull-right,.tree-item .pull-right{  position:absolute; top:5px; right:10px; text-align:right; z-index:999;}
+.tree .tree-folder .tree-folder-header .tree-folder-name, .tree .tree-item .tree-item-name{display:inline-block !important; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; vertical-align:middle; } /* max-width:200px; max-width:200px; */   
+.tree .tree-folder .tree-folder-header{position:relative; }
+.tree-role-panel .tree-selectable,.tree-role-panel .slimScrollDiv{ min-height:360px; height:auto !important;}
+.tree-role-panel{min-height:350px; height:auto !important; border-bottom:0px;}
+.tree-role-panel .panel-body {  padding:15px 15px 0px 15px;}
+.blue2:hover,.blue:hover{color: #f77!important;}
+/*****角色授权end******/
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 2;
+    color: #FFF;
+    background-color: #b21e28;
+    border-color: #b21e28;
+    cursor: default;
+}
+.blue {
+    color: #7d7d7d !important;
+}
+.blue:hover{ color: #ca0821 !important;}
+
+.blue2 {
+    color: #7d7d7d !important;
+}
+.blue2:hover{ color: #ca0821 !important;}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    color: #7d7d7d;
+    background-color: #EEE;
+    border-color: #DDD;
+}
+.pagination > li > a, .pagination > li > span{color: #7d7d7d;}
+
+/*.btn-primary,.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{border-color:#b21e28; color:#b21e28; background-color:#fff;}
+.btn-danger,.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger{border-color:#b21e28; color:#b21e28;background-color:#fff;}
+.btn-success,.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success
+{border-color:#b21e28; color:#b21e28;background-color:#fff;}
+.btn:focus {
+    outline:none;
+    outline-offset: 0px;
+}
+.btn-success,.btn-primary,.btn-danger{color:#3a3a3a;}**/
+.btn{padding: 5px 0px;}
+.btn-primary,.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{ width:95px; height:30px; background:url(../image/btn.png) no-repeat;border-color:transparent; color:#b21e28; border:0;}
+.btn-danger,.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger{width:95px; height:30px; background:url(../image/btn.png) no-repeat;border-color:transparent; color:#b21e28; border:0;}
+.btn-success,.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success
+{width:95px; height:30px;  background:url(../image/btn.png) no-repeat;border-color:transparent;color:#b21e28;  border:0;}
+.btn:focus {
+    outline:none;
+    outline-offset: 0px;
+}
+.btn-success,.btn-primary,.btn-danger{color:#3a3a3a;}
+.btn-panel .btn-primary{ width:40px; height:30px; background:url(../image/btn1.png) no-repeat;border-color:transparent; color:#3a3a3a; border:0;}
+.btn-panel .btn-primary:hover,.btn-panel  .btn-primary:focus,.btn-panel  .btn-primary:active, .btn-primary.active, .btn-panel .open .dropdown-toggle.btn-primary{color:#b21e28;}
+
+.tree-folder-header .icon-plus{ background-image:none !important; background:none;}
+.panel-info > .panel-heading{ color: #333;
+background-color: #F5F5F5;
+border-color: #DDD;}
+.panel-info {
+    border-color: #ddd;
+}

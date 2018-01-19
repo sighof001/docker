@@ -1,0 +1,6 @@
+.alert{font-size: 0.35rem; border: 0;}
+
+label.error{color: red;}
+
+/******** 上拉加载时的字体 ******/
+.dropload-noData,.dropload-load,.dropload-refresh{font-size: 30px;}

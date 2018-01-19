@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:tool="http://www.springframework.org/schema/tool"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans.xsd  
+    http://www.springframework.org/schema/tx  
+    http://www.springframework.org/schema/tx/spring-tx.xsd  
+    http://www.springframework.org/schema/aop  
+    http://www.springframework.org/schema/aop/spring-aop.xsd  
+    http://www.springframework.org/schema/jee  
+    http://www.springframework.org/schema/jee/spring-jee.xsd  
+    http://www.springframework.org/schema/context  
+    http://www.springframework.org/schema/context/spring-context.xsd  
+    http://www.springframework.org/schema/util  
+    http://www.springframework.org/schema/util/spring-util.xsd  
+    http://www.springframework.org/schema/tool  
+    http://www.springframework.org/schema/tool/spring-tool.xsd
+    http://www.springframework.org/schema/mvc  
+    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+	<!-- 默认扫描的包路径 -->
+	 
+	<context:component-scan base-package="com.investfinancing.console.controller,com.investfinancing.console.service,com.investfinancing.console.dao" />
+	<context:component-scan base-package="com.dplatform.**.web, com.indicator.**.web,com.rdsweb.**.web" />
+
+	<mvc:annotation-driven />
+ 
+  	<bean id="processError" class="com.dplatform.framework.web.processerror.ProcessError" ></bean>		
+
+	<aop:config>   
+		<aop:aspect ref="processError" >  
+            <aop:pointcut expression = "execution(* com.investfinancing.console.controller.*Controller.*(..))" id = "webcut" />
+			<aop:around method="processTx" pointcut-ref="webcut" />
+        </aop:aspect >
+	</aop:config>
+	<aop:config>   
+		<aop:advisor pointcut="(execution(* com.investfinancing.console.service..*.*(..)))" advice-ref="htxAdvice" />
+	</aop:config>
+ 
+	<!-- 支持上传文件 -->  
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+</beans> 
+

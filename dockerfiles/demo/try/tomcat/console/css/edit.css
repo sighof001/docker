@@ -1,0 +1,31 @@
+html,body{overflow-x:hidden;overflow-y:auto;}
+.form-group {margin-bottom: 5px;}
+.form-group label{display: inline-block;width: 20%; text-align: right; margin: 0 5px 0 0; font-size: 12px;}
+.form-group label span.red{width: 10px; padding: 0 0 0 0; margin: 0 0 0 0;}
+.form-group span{display: inline-block; width: 180px;}
+
+.form-control{display: inline-block; width: 40%; font-size: 12px; height: 25px; padding: 0 0 0 5px;}
+
+.group-box{margin: 0 0 20px 0; padding: 5px 5px 5px 5px; border: 1px solid #317EF3;}
+.group-box .group-title{padding: 5px 0 0 30px; font-size: 25px; background: #F5F5F5; margin: 0 0 15px 0;}
+.box-hide .form-group{display: none;}
+
+.left{padding:0 0 0 10%;}
+.right{padding:0 10% 0 0;}
+/**浮动置顶样式**/
+.floating-top{width:100%;position:fixed; background:Black; _position:absolute;_top:expression(eval(document.documentElement.scrollTop));z-index:1000;left:0;top:0; }
+.floating-content{margin:60px 0 0 0;}
+.floating-back{position:relative;float:right;margin-left:2px;font-size:12px;}
+/* .floating-back{position:relative; float:right;margin-left:2px;}
+.backstyle{display:inline-block;width:95px;height:30px;font-size: 14px;color:#3A3A3A;top:30px;right:200px;position:absolute;}
+.detailplace-1{position:absolute;top:30px;right:300px;}
+.detailplace{position:absolute;top:30px;right:400px;} */
+/**下拉树形框样式修改**/
+.form-group .caret{display: none;}
+.form-group .dropdown-tree{width:40%; display: inline-block;}
+.form-group .dropdown-tree .form-control{width: 100%; }
+ /**增加按钮宽度**/
+/* .btn-large{width:120px;background-size:120px 30px;} */
+
+.mirror-wrap{display: relative;}
+.mirror{width:20px;height:20px; position:absolute; top:8px; left:400px; cursor:pointer; background:url(../../../theme/sidebar/image/tableicon/tableicon1.png) top no-repeat;}

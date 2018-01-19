@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The contents of this file will be loaded for each web application -->
+<Context>
+
+	<!-- Default set of monitored resources -->
+	<WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+<!-- 	<Resource name="jdbc_dplatform" auth="Container" type="javax.sql.DataSource" -->
+<!-- 		username="admin" password="admin" driverClassName="com.mysql.jdbc.Driver" -->
+<!-- 		url="jdbc:mysql://localhost:6688/du4d2" maxActive="5" maxIdle="30" -->
+<!-- 		maxWait="10000" /> -->
+
+<!-- 	<Resource name="jdbc_dplatform" auth="Container" type="javax.sql.DataSource" -->
+<!-- 		username="root" password="123456" driverClassName="com.mysql.jdbc.Driver" -->
+<!-- 		url="jdbc:mysql://localhost:3306/du4d2" maxActive="5" maxIdle="30" -->
+<!-- 		maxWait="10000" /> -->
+
+<!-- 	<Resource name="jdbc_ind" auth="Container" type="javax.sql.DataSource" -->
+<!-- 		username="admin" password="admin" driverClassName="com.mysql.jdbc.Driver" -->
+<!-- 		url="jdbc:mysql://localhost:6688/du4ddemo" maxActive="5" maxIdle="30" -->
+<!-- 		maxWait="10000" /> -->
+<!-- <Resource name="jdbc_ind" auth="Container" type="javax.sql.DataSource" -->
+<!-- 		username="root" password="123456" driverClassName="com.mysql.jdbc.Driver" -->
+<!-- 		url="jdbc:mysql://localhost:3306/du4d2" maxActive="5" maxIdle="30" -->
+<!-- 		maxWait="10000" /> -->
+
+<!-- oracle -->
+<!-- 		<Resource name="jdbc_dplatform" auth="Container" type="javax.sql.DataSource" -->
+<!-- 		username="dcp" password="dcp" driverClassName="oracle.jdbc.driver.OracleDriver" -->
+<!-- 		url="jdbc:oracle:thin:@192.168.1.117:1521:orcl" maxActive="5" maxIdle="30" -->
+<!-- 		maxWait="10000" /> -->
+		
+<!-- 		<Resource name="jdbc_ind" auth="Container" type="javax.sql.DataSource" -->
+<!-- 		username="dcp" password="dcp" driverClassName="oracle.jdbc.driver.OracleDriver" -->
+<!-- 		url="jdbc:oracle:thin:@192.168.1.117:1521:orcl" maxActive="5" maxIdle="30" -->
+<!-- 		maxWait="10000" /> -->
+
+		<Resource name="jdbc_dplatform" auth="Container" type="javax.sql.DataSource"
+			username="des" password="des" driverClassName="oracle.jdbc.driver.OracleDriver"
+			url="jdbc:oracle:thin:@10.1.88.146:1521:ods" maxActive="5" maxIdle="30"
+			maxWait="10000" />
+			
+		<Resource name="jdbc_ind" auth="Container" type="javax.sql.DataSource"
+			username="des" password="des" driverClassName="oracle.jdbc.driver.OracleDriver"
+			url="jdbc:oracle:thin:@10.1.88.146:1521:ods" maxActive="5" maxIdle="30"
+			maxWait="10000" />
+
+</Context>

@@ -1,0 +1,389 @@
+.flow_container {
+	position:relative;
+	display:inline-block;
+	z-index:100;
+	text-align:left;
+	margin:0px 0px;
+}
+.flow_container ul {
+	margin:0px;
+	padding:0px;
+}
+.flow_container ul li {
+	list-style:none;
+	float:left;
+}
+#flow_container {
+	position:relative;
+	display:inline-block;
+	z-index:100;
+	text-align:left;
+	margin:0px 0px;
+}
+#flow_container ul {
+	margin:0px;
+	padding:0px;
+}
+#flow_container ul li {
+	list-style:none;
+	float:left;
+}
+.flow_step1 {
+	background:url(../../../image/progressbar/progressbar2.gif) left -1px no-repeat;
+	height:33px;
+	font-size:14px;
+	float:left;
+	margin-left:10px;
+	display:block;
+}
+.flow_step1 span {
+	background:url(../../../image/progressbar/progressbar2.gif) right -1px no-repeat;
+	float:left;
+	padding-right:10px;
+	line-height:33px;
+	height:33px;
+	white-space:nowrap;
+	margin-left:35px;
+	display:block;
+}
+.flow_step2 {
+	background:url(../../../image/progressbar/progressbar2.gif) left -35px no-repeat;
+	height:33px;
+	font-size:14px;
+	float:left;
+	margin-left:10px;
+	display:block;
+}
+.flow_step2 span {
+	background:url(../../../image/progressbar/progressbar2.gif) right -35px no-repeat;
+	float:left;
+	padding-right:10px;
+	line-height:33px;
+	height:33px;
+	white-space:nowrap;
+	margin-left:35px;
+	display:block;
+}
+.flow_step3 {
+	background:url(../../../image/progressbar/progressbar2.gif) left -69px no-repeat;
+	height:33px;
+	font-size:14px;
+	float:left;
+	margin-left:10px;
+	display:block;
+}
+.flow_step3 span {
+	background:url(../../../image/progressbar/progressbar2.gif) right -69px no-repeat;
+	float:left;
+	padding-right:10px;
+	line-height:33px;
+	height:33px;
+	white-space:nowrap;
+	margin-left:35px;
+	display:block;
+}
+.flow_step4 {
+	background:url(../../../image/progressbar/progressbar2.gif) left -103px no-repeat;
+	height:33px;
+	font-size:14px;
+	float:left;
+	margin-left:10px;
+	display:block;
+}
+.flow_step4 span {
+	background:url(../../../image/progressbar/progressbar2.gif) right -103px no-repeat;
+	float:left;
+	padding-right:10px;
+	line-height:33px;
+	height:33px;
+	white-space:nowrap;
+	margin-left:35px;
+	display:block;
+}
+.flow_step5 {
+	background:url(../../../image/progressbar/progressbar2.gif) left -137px no-repeat;
+	height:33px;
+	font-size:14px;
+	float:left;
+	margin-left:10px;
+	display:block;
+}
+.flow_step5 span {
+	background:url(../../../image/progressbar/progressbar2.gif) right -137px no-repeat;
+	float:left;
+	padding-right:10px;
+	line-height:33px;
+	height:33px;
+	white-space:nowrap;
+	margin-left:35px;
+	display:block;
+}
+.flow_step1_dis {
+	background:url(../../../image/progressbar/progressbar2.gif) left -171px no-repeat;
+	height:33px;
+	font-size:14px;
+	float:left;
+	margin-left:10px;
+	display:block;
+}
+.flow_step1_dis span {
+background:url(../../../image/progressbar/progressbar2.gif) right --71px no-repeat;
+	float:left;
+	padding-right:10px;
+	line-height:33px;
+	height:33px;
+	white-space:nowrap;
+	margin-left:35px;
+	display:block;
+}
+.flow_step2_dis {
+	background:url(../../../image/progressbar/progressbar2.gif) left -205px no-repeat;
+	height:33px;
+	font-size:14px;
+	float:left;
+	margin-left:10px;
+	display:block;
+}
+.flow_step2_dis span {
+	background:url(../../../image/progressbar/progressbar2.gif) right -205px no-repeat;
+	float:left;
+	padding-right:10px;
+	line-height:33px;
+	height:33px;
+	white-space:nowrap;
+	margin-left:35px;
+	display:block;
+}
+.flow_step3_dis {
+	background:url(../../../image/progressbar/progressbar2.gif) left -239px no-repeat;
+	height:33px;
+	font-size:14px;
+	float:left;
+	margin-left:10px;
+	display:block;
+}
+.flow_step3_dis span {
+	background:url(../../../image/progressbar/progressbar2.gif) right -239px no-repeat;
+	float:left;
+	padding-right:10px;
+	line-height:33px;
+	height:33px;
+	white-space:nowrap;
+	margin-left:35px;
+	display:block;
+}
+.flow_step4_dis {
+	background:url(../../../image/progressbar/progressbar2.gif) left -273px no-repeat;
+	height:33px;
+	font-size:14px;
+	float:left;
+	margin-left:10px;
+	display:block;
+}
+.flow_step4_dis span {
+	background:url(../../../image/progressbar/progressbar2.gif) right -273px no-repeat;
+	float:left;
+	padding-right:10px;
+	line-height:33px;
+	height:33px;
+	white-space:nowrap;
+	margin-left:35px;
+	display:block;
+}
+.flow_step5_dis {
+	background:url(../../../image/progressbar/progressbar2.gif) left -307px no-repeat;
+	height:33px;
+	font-size:14px;
+	float:left;
+	margin-left:10px;
+	display:block;
+}
+.flow_step5_dis span {
+	background:url(../../../image/progressbar/progressbar2.gif) right -307px no-repeat;
+	float:left;
+	padding-right:10px;
+	line-height:33px;
+	height:33px;
+	white-space:nowrap;
+	margin-left:35px;
+	display:block;
+}
+
+
+
+/** ¼��?����������ʾ **/
+/* .steps_1 {
+	display:block;
+	margin-right:8px;
+	float:left;
+	width:25px;
+	height:27px;
+	background:url(../../../image/progressbar/default/number_icon.gif) scroll 0px -40px no-repeat;
+}
+.steps_1_on {
+	display:block;
+	margin-right:8px;
+	float:left;
+	width:25px;
+	height:27px;
+	background:url(../../../image/progressbar/default/number_icon.gif) scroll 0px 0px no-repeat;
+}
+.steps_2 {
+	display:block;
+	margin-right:8px;
+	float:left;
+	width:25px;
+	height:27px;
+	background:url(../../../image/progressbar/default/number_icon.gif) scroll -26px -40px no-repeat;
+}
+.steps_2_on {
+	display:block;
+	margin-right:8px;
+	float:left;
+	width:25px;
+	height:27px;
+	background:url(../../../image/progressbar/default/number_icon.gif) scroll -26px 0px no-repeat;
+}
+.steps_3 {
+	display:block;
+	margin-right:8px;
+	float:left;
+	width:25px;
+	height:27px;
+	background:url(../../../image/progressbar/default/number_icon.gif) scroll -52px -40px no-repeat;
+}
+.steps_3_on {
+	display:block;
+	margin-right:8px;
+	float:left;
+	width:25px;
+	height:27px;
+	background:url(../../../image/progressbar/default/number_icon.gif) scroll -52px 0px no-repeat;
+}
+.steps_4 {
+	display:block;
+	margin-right:8px;
+	float:left;
+	width:25px;
+	height:27px;
+	background:url(../../../image/progressbar/default/number_icon.gif) scroll -78px -40px no-repeat;
+}
+.steps_4_on {
+	display:block;
+	margin-right:8px;
+	float:left;
+	width:25px;
+	height:27px;
+	background:url(../../../image/progressbar/default/number_icon.gif) scroll -78px 0px no-repeat;
+}
+.steps_5 {
+	display:block;
+	margin-right:8px;
+	float:left;
+	width:25px;
+	height:27px;
+	background:url(../../../image/progressbar/default/number_icon.gif) scroll -104px -40px no-repeat;
+}
+.steps_5_on {
+	display:block;
+	margin-right:8px;
+	float:left;
+	width:25px;
+	height:27px;
+	background:url(../../../image/progressbar/default/number_icon.gif) scroll -104px 0px no-repeat;
+}
+.steps_6 {
+	display:block;
+	margin-right:8px;
+	float:left;
+	width:25px;
+	height:27px;
+	background:url(../../../image/progressbar/default/number_icon.gif) scroll -130px -40px no-repeat;
+}
+.steps_6_on {
+	display:block;
+	margin-right:8px;
+	float:left;
+	width:25px;
+	height:27px;
+	background:url(../../../image/progressbar/default/number_icon.gif) scroll -130px 0px no-repeat;
+} */
+
+
+
+/****����***/
+.flow_step0{ background:url("../../../image/progressbar/progressbar2_l.gif") left -342px no-repeat; height:31px; line-height:31px; font-size:14px; float:left; margin:0px; padding:0px 0px 0px 12px; position:relative; z-index:11;}
+.flow_step0 span{ background:url("../../../image/progressbar/progressbar2.gif") right -342px no-repeat; display:inline-block; height:31px; line-height:31px; padding:0px 30px 0px 0px;}
+
+.flow_step1,.flow_step2,.flow_step3,.flow_step4,.flow_step5{
+	height:31px; line-height:31px; font-size:14px; float:left; margin:0px 0px 0px -30px; padding:0px 0px 0px 30px; position:relative;
+}
+.flow_step1 span,.flow_step2 span,.flow_step3 span,.flow_step4 span,.flow_step5 span{
+	 color:#fff; display:inline-block; height:31px; line-height:29px; padding:0px 30px 0px 0px;
+}
+.flow_step1 { background:url("../../../image/progressbar/progressbar2_l.gif") left -1px no-repeat; z-index:10;}
+.flow_step1 span { background:url("../../../image/progressbar/progressbar2.gif") right -1px no-repeat;}
+.flow_step2 { background:url("../../../image/progressbar/progressbar2_l.gif") left -35px no-repeat; z-index:8;}
+.flow_step2 span { background:url("../../../image/progressbar/progressbar2.gif") right -35px no-repeat;}
+.flow_step3 { background:url("../../../image/progressbar/progressbar2_l.gif") left -69px no-repeat; z-index:6;}
+.flow_step3 span { background:url("../../../image/progressbar/progressbar2.gif") right -69px no-repeat;}
+.flow_step4 { background:url("../../../image/progressbar/progressbar2_l.gif") left -103px no-repeat; z-index:4;}
+.flow_step4 span { background:url("../../../image/progressbar/progressbar2.gif") right -103px no-repeat;}
+.flow_step5 { background:url("../../../image/progressbar/progressbar2_l.gif") left -137px no-repeat; z-index:2;}
+.flow_step5 span { background:url("../../../image/progressbar/progressbar2.gif") right -137px no-repeat;}
+
+.flow_step1_dis,.flow_step2_dis,.flow_step3_dis,.flow_step4_dis,.flow_step5_dis{
+	height:31px; line-height:31px; font-size:14px; float:left; margin:0px 0px 0px -30px; padding:0px 0px 0px 30px; position:relative; 
+}
+.flow_step1_dis span,.flow_step2_dis span,.flow_step3_dis span,.flow_step4_dis span,.flow_step5_dis span{
+	display:inline-block; height:31px; line-height:29px; padding:0px 30px 0px 0px;
+}
+
+.flow_step1_dis {background:url("../../../image/progressbar/progressbar2_l.gif") left -171px no-repeat; z-index:9;}
+.flow_step1_dis span {background:url("../../../image/progressbar/progressbar2.gif") right -171px no-repeat; }
+.flow_step2_dis {background:url("../../../image/progressbar/progressbar2_l.gif") left -205px no-repeat; z-index:7;}
+.flow_step2_dis span {background:url("../../../image/progressbar/progressbar2.gif") right -205px no-repeat;}
+.flow_step3_dis {background:url("../../../image/progressbar/progressbar2_l.gif") left -239px no-repeat; z-index:5;}
+.flow_step3_dis span {background:url("../../../image/progressbar/progressbar2.gif") right -239px no-repeat;}
+.flow_step4_dis {background:url("../../../image/progressbar/progressbar2_l.gif") left -273px no-repeat;  z-index:3;}
+.flow_step4_dis span {background:url("../../../image/progressbar/progressbar2.gif") right -273px no-repeat;}
+.flow_step5_dis {background:url("../../../image/progressbar/progressbar2_l.gif") left -307px no-repeat; z-index:1;}
+.flow_step5_dis span {background:url("../../../image/progressbar/progressbar2.gif") right -307px no-repeat;}
+
+
+.step{height:35px;}
+.step ul{border-left:1px solid #bababa; height:34px; float:left;padding-right:17px;} 
+.step ul.bg_jt_gray{background:url(../../../image/progressbar/tb_jt2.png) no-repeat right top; }
+.step ul.bg_jt_white{background:url(../../../image/progressbar/tb_jt3.png) no-repeat right top; }
+.step li{ background:#ebebeb; padding-left:34px; padding-right:17px; float:left; line-height:32px; position:relative; color:#565656;border-top:1px solid #bababa;border-bottom:1px solid #bababa;}
+.step span.gray_jt{background:url(../../../image/progressbar/tb_jt2.png) no-repeat; width:17px; height:33px; position:absolute; left:0px; display:block; top:0px;}
+.step li.dq{ background:#BB0215; color:#fff; font-weight:bold;}
+.white_jt{background:url(../../../image/progressbar/tb_jt3.png) no-repeat;width:17px; height:33px; position:absolute; left:0px; display:block; top:0px; }
+
+
+/*****����****/
+.flow_container ul li{  padding:0px 17px 0px 0px;margin:0px -17px 0px 0px; height:35px; line-height:33px;}
+.flow_container ul li span{margin:0px; padding-right:17px;padding-left:75px; height:33px; font-size:12px;}
+.flow_container .flow_step0{ background:url(../../../image/progressbar/tb_jt2.png) no-repeat right; font-weight:bold; font-size:12px; } 
+.flow_container .flow_step1,.flow_container .flow_step2,.flow_container .flow_step3{font-weight:bold;}
+.flow_container .flow_step0 span{ background: #EBEBEB; border: 1px solid #BABABA; border-right:0px; padding-left:30px; } 
+.flow_step1{background:url(../../../image/progressbar/tb_jt3.png) no-repeat right; padding:0px; } 
+.flow_step1 span{background:#BB0215 url(../../../image/progressbar/step1_red.png) no-repeat 35px 9px; border: 1px solid #BABABA; border-right:0px; border-left:0px;} 
+.flow_step2{background:url(../../../image/progressbar/tb_jt3.png) no-repeat right; padding:0px; } 
+.flow_step2 span{background:#BB0215  url(../../../image/progressbar/step2_red.png) no-repeat 35px 9px; border: 1px solid #BABABA; border-right:0px; border-left:0px;} 
+.flow_step3{background:url(../../../image/progressbar/tb_jt3.png) no-repeat right; padding:0px; } 
+.flow_step3 span{background:#BB0215  url(../../../image/progressbar/step3_red.png) no-repeat 35px 9px; border: 1px solid #BABABA; border-right:0px; border-left:0px; }
+.flow_step4{background:url(../../../image/progressbar/tb_jt3.png) no-repeat right; padding:0px; } 
+.flow_step4 span{background:#BB0215  url(../../../image/progressbar/step4_red.png) no-repeat 35px 9px; border: 1px solid #BABABA; border-right:0px; border-left:0px; } 
+.flow_step5{background:url(../../../image/progressbar/tb_jt3.png) no-repeat right; padding:0px; } 
+.flow_step5 span{background:#BB0215  url(../../../image/progressbar/step4_red.png) no-repeat 35px 9px; border: 1px solid #BABABA; border-right:0px; border-left:0px; } 
+.flow_step1_dis{background:url(../../../image/progressbar/tb_jt2.png) no-repeat right;} 
+.flow_step1_dis span{ background: #EBEBEB url(../../../image/progressbar/step1_gray.png) no-repeat 35px 9px; border: 1px solid #BABABA; border-right:0px;  }
+.flow_step2_dis{background:url(../../../image/progressbar/tb_jt2.png) no-repeat right;} 
+.flow_step2_dis span{ background: #EBEBEB url(../../../image/progressbar/step2_gray.png) no-repeat 35px 9px; border: 1px solid #BABABA; border-right:0px;  }
+.flow_step3_dis{background:url(../../../image/progressbar/tb_jt2.png) no-repeat right;} 
+.flow_step3_dis span{ background: #EBEBEB url(../../../image/progressbar/step3_gray.png) no-repeat 35px 9px; border: 1px solid #BABABA; border-right:0px;  }
+.flow_step4_dis{background:url(../../../image/progressbar/tb_jt2.png) no-repeat right;} 
+.flow_step4_dis span{ background: #EBEBEB url(../../../image/progressbar/step4_gray.png) no-repeat 35px 9px; border: 1px solid #BABABA; border-right:0px;  }
+.flow_step5_dis{background:url(../../../image/progressbar/tb_jt2.png) no-repeat right;} 
+.flow_step5_dis span{ background: #EBEBEB url(../../../image/progressbar/step4_gray.png) no-repeat 35px 9px; border: 1px solid #BABABA; border-right:0px;  }

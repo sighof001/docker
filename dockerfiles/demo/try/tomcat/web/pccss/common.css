@@ -1,0 +1,16 @@
+/* input在type="number"时的上下小箭头 */
+/* 在chrome下： */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0; 
+}
+
+/* Firefox下：*/
+input[type="number"]{-moz-appearance:textfield;}
+
+/* pc a标签 边距 左10px*/
+.auth-status-cla {display:block;margin: 0 0 0 10px;}
+
+/* pc 鼠标放上变红*/
+.btnred:hover{background-color:#ef7b57;border:1px solid #ef7b57}

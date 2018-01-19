@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Licenses>
+  <INFO>
+    <PLATFORM-License>
+      <License component="com.dplatform.framework" cpus="1" expiration="2090-12-31" ip="any" licensee="BIProduct" mac="" project="DU4D" scope="Server" signature="l+f63hB3aa23DC8N77IQ2wCl7b7olWr0Oxm8dzufpu2Pfw5QKgcqPZ2K50XurS5lTpOdg3gGUZCyA3K0WTVNIw==" type="product" units="100"/>
+      <License component="com.dplatform.dao" cpus="1" expiration="2090-12-31" ip="any" licensee="BIProduct" mac="" project="DU4D" scope="Server" signature="W0v/9Jrp6qyIisdHHyzkXyy8Ax4IPJxb7RjzkGkydFXhxDDJ4wUVEF+Y/Py5PA1fedLHDp53nWYhDnPqQHlh8w==" type="product" units="100"/>
+      <License component="com.dplatform.dbtool" cpus="1" expiration="2090-12-31" ip="any" licensee="BIProduct" mac="" project="DU4D" scope="Server" signature="ZdPUG1IODB+bfXHkxqFQmwN5Sky8vFSkiDqbbvdGuj9a+CQ3n+JEapmoCn16mBpXKmwWhzPk9NPgyHYZBULJIw==" type="product" units="100"/>
+      <License component="com.dplatform.parameter" cpus="1" expiration="2090-12-31" ip="any" licensee="BIProduct" mac="" project="DU4D" scope="Server" signature="BeCh1DtMBB2Pk/RpqMeLgOhESdWVAQ2Xtn1wWjQRgjFA1EHtngOnVEY+/mHS4gntJvJN/F/e/ZvEhiV/bCOMgQ==" type="product" units="100"/>
+      <License component="com.dplatform.privilege" cpus="1" expiration="2090-12-31" ip="any" licensee="BIProduct" mac="" project="DU4D" scope="Server" signature="AFQzxylddLu4Sx5ylMjK3sMB/DnoEOO7Ix7X3DFKGPHKs04Ua76oTCGhY3J6/bfurygcX/UQlQHKjQOcJNnY2Q==" type="product" units="100"/>
+      <License component="com.dplatform.web" cpus="1" expiration="2090-12-31" ip="any" licensee="BIProduct" mac="" project="DU4D" scope="Server" signature="Q2IX9qtK3OCeRKr9+6npjY0d85JKJdJKnbBiij7qq77u5KZ6K1AIgM73jrdt4U3yTQy3/IxN5umVdk5PnZ0smA==" type="product" units="100"/>
+      <License component="com.dplatform.demo" cpus="1" expiration="2090-12-31" ip="any" licensee="BIProduct" mac="" project="DU4D" scope="Server" signature="clc9VyDBiHBmDnKKhcM9GRypebxOFvAwuUcc4icjRDFHpUHvV4pobw3Xv7FcfI/8oEHaI8OlWHjhsVlYB4fIGg==" type="product" units="100"/>
+      <License component="com.dplatform.mybaits" cpus="1" expiration="2090-12-31" ip="any" licensee="BIProduct" mac="" project="DU4D" scope="Server" signature="Vv/c+vdM+A2LyC/UW5+fnOUQaSifBKbFsqP9r79PlS1iVUDHgJiw5WBYaBlPQ4kUposc5g1+XFb0Xy/nXTaPTw==" type="product" units="100"/>
+    </PLATFORM-License>
+  </INFO>
+</Licenses>

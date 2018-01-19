@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+	
+	<display-name>com.investfinancing.console</display-name>
+	<context-param>
+		<param-name>webAppRootKey</param-name>
+		<param-value>webapp.console</param-value>
+	</context-param>
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+        	/WEB-INF/config/spring/spring_*.xml,
+        	classpath*:/META-INF/spring/*.xml
+        </param-value>
+	</context-param>
+	<context-param>
+		<param-name>log4jConfigLocation</param-name>
+		<param-value>/WEB-INF/config/log4j.properties</param-value>
+	</context-param>
+	
+  <listener>
+	<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+</listener>
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>com.investfinancing.console.listener.InitListener</listener-class>
+	</listener>
+
+	<filter>
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>SSOFilter</filter-name>
+		<filter-class>com.dplatform.privilege.web.filter.SSOFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>SSOFilter</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+		<url-pattern>*.do</url-pattern>
+		<url-pattern>*.htm</url-pattern>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
+
+
+	<filter>
+		<filter-name>securityFilter</filter-name>
+		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+		<init-param>
+			<param-name>targetFilterLifecycle</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>securityFilter</filter-name>
+		<url-pattern>*.do</url-pattern>
+		<url-pattern>*.htm</url-pattern>
+		<url-pattern>*.html</url-pattern>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+
+	<servlet>
+		<servlet-name>spring</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/config/spring/spring_mvc.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>spring</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet> 
+	<servlet-name>DisplayChart</servlet-name> 
+	<servlet-class> 
+		org.jfree.chart.servlet.DisplayChart 
+	</servlet-class> 
+  </servlet> 
+  <servlet-mapping> 
+	<servlet-name>DisplayChart</servlet-name> 
+	<url-pattern>/DisplayChart</url-pattern> 
+  </servlet-mapping>
+  
+    <servlet>
+		<servlet-name>MonitorServlet</servlet-name>
+		<servlet-class>com.rdsweb.http.servlet.MonitorServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MonitorServlet</servlet-name>
+		<url-pattern>/monitorServlet</url-pattern>
+	</servlet-mapping>
+  
+    <servlet>
+		<servlet-name>DownFileServlet</servlet-name>
+		<servlet-class>com.rdsweb.http.servlet.DownFileServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DownFileServlet</servlet-name>
+		<url-pattern>/downFileServlet</url-pattern>
+	</servlet-mapping>
+	
+
+	<welcome-file-list id="welcomefilelist">
+		<welcome-file>login.jsp</welcome-file>
+		<welcome-file>index.do</welcome-file>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/jsp/404.jsp</location>
+		<error-code>500</error-code>
+		<location>/jsp/500.jsp</location>
+	</error-page>
+</web-app>

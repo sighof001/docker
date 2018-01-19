@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+/*
+ * @(#)refund.html	V2.1.1	2011/10/10
+ *
+ *  Description:
+ *  =========================================================================
+ *  商户订单(单笔)退款请求范例页面。
+ *
+ *  Change History:
+ *  Author     Date       Description
+ *  ========== ========== ===================================================
+ *  Allinpay   2011/10/10 V2.1.1 Release
+ *
+ *  =========================================================================
+ *
+ */
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta http-equiv="Content-Language" content="zh-CN"/>
+<title>通联网上支付平台-商户接口范例-订单退款请求</title>
+</HEAD>
+<BODY BGCOLOR='#FFFFFF' TEXT='#000000' LINK='#0000FF' VLINK='#0000FF' ALINK='#FF0000'>
+<center> <h4>页面订单提交</h4></center>
+
+
+<form action="refund.jsp" method="post">
+	<table border="1" cellpadding="1" cellspacing="1" align="center">
+	<tr>
+					<td>提交地址:</td>
+					<td >
+						<select id="serverip" onchange="javascript:this.form.myServerIp.value=this.value;">
+							<option value="http://ceshi.allinpay.com/gateway/index.do">测试环境ceshi.allinpay.com</option>
+							<option value="https://service.allinpay.com/gateway/index.do">生产环境service.allinpay.com</option>
+						</select>
+						<input type="text" name="myServerIp" id="myServerIp" value="http://ceshi.allinpay.com/gateway/index.do" />
+					</td>
+				</tr>
+			<!-- 报文参数 -->
+			<tr>
+				<td>1. 报文版本号:</td>
+				<td><input type="text" name="version" value="v1.3"/><font color="red">*</font></td>
+			</tr>
+			<tr>
+				<td>2. 签名方式:</td>
+				<td><input type="text" name="signType" value="0"/><font color="red">*</font></td>
+			</tr>
+			<!-- 买卖双方信息参数 -->
+			<tr>
+				<td>3. 商户号:</td>
+				<td><input type="text" name="merchantId" value="100020091218001"/><font color="red">*</font></td>
+			</tr>
+			<!-- 业务参数 -->
+			<tr>
+				<td>4. 商户系统订单号:</td>
+				<td><input type="text" name="orderNo" value="NO20111014085630"/><font color="red">*</font></td>
+			</tr>
+			<tr>
+				<td>5. 退款金额(单位分):</td>
+				<td><input type="text" name="refundAmount" value="200"/><font color="red">*</font></td>
+			</tr>
+			<tr>
+				<td>6. 商户的订单创建时间:</td>
+				<td><input type="text" name="orderDatetime" value="20111014085630"/><font color="red">*</font></td>
+			</tr>
+			<!--key值在会员服务网站上设置。该值只用于计算signMsg，不提交，而是将计算后的signMsg提交到支付网关-->
+			<tr>
+				<td>用于计算signMsg的key值:</td>
+				<td><input type="text" name="key" id="key" value="1234567890"/><font color="red">*</font></td>
+			</tr>
+		</table>
+		<div align="center"><input type="submit" value="提交表单，计算signMsg"/></div>
+</form>
+</BODY>
+</HTML>
