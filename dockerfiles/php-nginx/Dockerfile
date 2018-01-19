@@ -134,14 +134,14 @@ RUN GPG_KEYS=B0F4253373F8F6F510D42178520A9993A1C052F8 \
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY nginx.vh.default.conf /etc/nginx/conf.d/default.conf
-ADD run.sh /run.sh
+
+COPY run.sh /run.sh
+RUN chmod 755 /run.sh
 
 EXPOSE 80
 
 STOPSIGNAL SIGTERM
 
 CMD ["/run.sh"]
-CMD ["nginx", "-g", "daemon off;"]
-CMD ["php-fpm"]
 
 
