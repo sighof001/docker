@@ -14,7 +14,7 @@ docker run --name svn-server \
            --detach \
            --volume /home/svn:/var/opt/svn \
            --publish 8004:3690 \
-           sighof/svn-server
+           sighof001/svn-server
 ```
 ### 创建仓库 my-repo
 ```
@@ -23,7 +23,7 @@ docker exec -it svn-server svnadmin create my-repo
 
 ### 配置svn
 ```
-cd /home/svn/my-repo
+cd /home/svn/my-repo/conf
 ```
 
 #### 用户配置文件，passwd
@@ -58,3 +58,5 @@ authz-db = authz
 
 ### 访问仓库
 svn://localhost:8004/my-repo
+
+此处localhost替换为宿主机ip
