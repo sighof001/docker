@@ -9,7 +9,8 @@ CREATE USER 'user' IDENTIFIED BY 'password';
 
 grant all privileges on user.* to user;
 
-grant all privileges on *.* to root @"%" identified by "a111111";
+grant all privileges on *.* to root@"%" identified by "a111111";
+grant all privileges on *.* to user@"%" identified by "password";
 
 flush privileges;
 
