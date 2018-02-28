@@ -3,27 +3,37 @@
 ### 下载镜像
 docker pull sighof001/svn-server
 
+### 环境变更
+SVN_HOME=/home/svn
+SVN_PORT=8004
+SVN_REPO_NAME=my-repo
+
+
 ### 创建宿主机上的svn home
 ```
-mkdir /home/svn
+mkdir $SVN_HOME
 ```
 
 ### 启动容器
 ```
 docker run --name svn-server \
            --detach \
-           --volume /home/svn:/var/opt/svn \
-           --publish 8004:3690 \
+           --volume $SVN_HOME:/var/opt/svn \
+           --publish $SVN_PORT:3690 \
            sighof001/svn-server
 ```
 ### 创建仓库 my-repo
 ```
-docker exec -it svn-server svnadmin create my-repo
+docker exec -it svn-server svnadmin create $SVN_REPO_NAME
 ```
+
+### 备份配置
+cd /home/svn/$SVN_REPO_NAME
+cp -R conf conf.bak
 
 ### 配置svn
 ```
-cd /home/svn/my-repo/conf
+cd /home/svn/$SVN_REPO_NAME/conf
 ```
 
 #### 用户配置文件，passwd
@@ -57,6 +67,6 @@ authz-db = authz
 ```
 
 ### 访问仓库
-svn://localhost:8004/my-repo
+svn://localhost:8004/$SVN_REPO_NAME
 
 此处localhost替换为宿主机ip
