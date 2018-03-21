@@ -2,4 +2,5 @@ FROM sonatype/nexus
 
 MAINTAINER lx
 
-RUN echo "Asia/Shanghai" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata
+#RUN sudo echo "Asia/Shanghai" > /etc/timezone && sudo dpkg-reconfigure -f noninteractive tzdata
+COPY timezone /etc/timezone
